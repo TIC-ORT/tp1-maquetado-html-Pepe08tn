@@ -27,15 +27,15 @@ header{
     }
     
     .minibotones{
-        width: 150px;
+        width: 200px;
         height: 19px;
         background: rgb(255, 255, 255);
         position: absolute;
         top: 25px;   
-        right: 350px;
+        right: 400px;
     }
     .minibotones2{
-        width: 150px;
+        width: 200px;
         height: 19px;
         background: rgb(255, 255, 255);
         position: absolute;
@@ -52,7 +52,7 @@ header{
     }
 }
 
-nav{
+aside{
     .Cuadradoqestaporahi{
         background-color: rgb(196, 194, 194);
         width: 275px;
@@ -123,11 +123,306 @@ nav{
     }
     
     .Cuadrado2delNav{
-        background-color: rgb(255, 196, 0);
+        background-color: rgb(252, 213, 87);
         width: 275px;
         height: 275px;
         position: absolute;
         top: 91%;  
         left: 60px; 
+    }
+}
+
+main{
+    .TxtMini{
+        background-color: rgb(78, 78, 78);
+        width: 500px;
+        height: 25px;
+        position: relative;
+        top: 125px;  
+        left: 660px;
+    }
+    .medioCentro{
+        .LineaMini{
+            background-color: rgb(199, 199, 199);
+            width: 1060px;
+            height: 10px;
+            position: relative;
+            top: 115px;  
+            left: 660px;
+        }
+        .LineaMini2{
+            background-color: rgb(199, 199, 199);
+            width: 1060px;
+            height: 10px;
+            position: relative;
+            top: 125px;  
+            left: 660px;
+        }
+        .LineaMini3{
+            background-color: rgb(199, 199, 199);
+            width: 1060px;
+            height: 10px;
+            position: relative;
+            top: 135px;  
+            left: 660px;
+        }
+        .LineaMini4{
+            background-color: rgb(199, 199, 199);
+            width: 1060px;
+            height: 10px;
+            position: relative;
+            top: 145px;  
+            left: 660px;
+        }
+        .LineaChiquita{
+            background-color: rgb(199, 199, 199);
+            width: 30%;
+            height: 10px;
+            position: relative;
+            top: 155px;  
+            left: 900px;
+        }
+    }
+    
+    .Triangulo{
+        position: relative;
+        top: 160px;  
+        left: 520px;
+        width: 0;
+        height: 0;
+        border-left: 30px solid transparent; /*Buscado todo de Google*/
+        border-right: 30px solid transparent;
+        border-bottom: 30px solid rgb(209, 209, 209);
+        transform: rotate(270deg);
+    }
+    .Triangulo2{
+        position: relative;
+        top: 80px;  
+        left:  1790px;
+        width: 0;
+        height: 0;
+        border-left: 30px solid transparent; /*Buscado todo de Google*/
+        border-right: 30px solid transparent;
+        border-bottom: 30px solid rgb(209, 209, 209);
+        transform: rotate(90deg);
+    }
+    
+    .CuadradoCeleste{
+        background-color: rgb(168, 238, 255);
+        width: 275px;
+        height: 275px;
+        position: absolute;
+        top: 58%;  
+        left: 380px; 
+    }
+    .Cuadradogris{
+        background-color: rgb(201, 201, 201);
+        width: 275px;
+        height: 275px;
+        position: absolute;
+        top: 91%;  
+        left: 380px; 
+    }
+    .CuadradoGrande{
+        background-color: rgb(168, 238, 255);
+        width: 820px;
+        height: 590px;
+        position: absolute;
+        top: 58%;  
+        left: 700px; 
+    }
+    .CuadradoMedio1{
+        background-color: rgb(252, 213, 87);
+        width: 275px;
+        height: 275px;
+        position: absolute;
+        top: 58%;  
+        left: 1565px; 
+    }
+    .CuadradoMedio2{
+        background-color: rgb(78, 78, 78);
+        width: 275px;
+        height: 275px;
+        position: absolute;
+        top: 91%;  
+        left: 1565px; 
+    }
+}
+
+footer{
+    .primerCuadrado{
+        .Cuadrado1Abajo{
+            background-color: rgb(78, 78, 78);
+            width: 75px;
+            height: 75px;
+            position: absolute;
+            top: 123%;  
+            left: 580px; 
+        }
+        .LineaAbajo1{
+            background-color: rgb(209, 209, 209);
+            width: 110px;
+            height: 15px;
+            position: absolute;
+            top: 133%;  
+            left: 563px;
+        }
+        .LineaAbajoChica1{
+            background-color: rgb(209, 209, 209);
+            width: 110px;
+            height: 5px;
+            position: absolute;
+            top: 136%;  
+            left: 563px;
+        }
+        .LineaAbajoChica11{
+            background-color: rgb(209, 209, 209);
+            width: 110px;
+            height: 5px;
+            position: absolute;
+            top: 1312px;  
+            left: 563px;
+        }
+        .LineaAbajoDelTodo1{
+            background-color: rgb(209, 209, 209);
+            width: 75px;
+            height: 5px;
+            position: absolute;
+            top: 1328px;  
+            left: 580px;
+        }
+    } 
+    .segundoCuadrado{
+        .Cuadrado2Abajo{
+            background-color: rgb(78, 78, 78);
+            width: 75px;
+            height: 75px;
+            position: absolute;
+            top: 123%;  
+            left: 780px; 
+        }
+        .LineaAbajo2{
+            background-color: rgb(209, 209, 209);
+            width: 110px;
+            height: 15px;
+            position: absolute;
+            top: 133%;  
+            left: 763px;
+        }
+        .LineaAbajoChica2{
+            background-color: rgb(209, 209, 209);
+            width: 110px;
+            height: 5px;
+            position: absolute;
+            top: 136%;  
+            left: 763px;
+        }
+        .LineaAbajoChica22{
+            background-color: rgb(209, 209, 209);
+            width: 110px;
+            height: 5px;
+            position: absolute;
+            top: 1312px;  
+            left: 763px;
+        }
+        .LineaAbajoDelTodo2{
+            background-color: rgb(209, 209, 209);
+            width: 75px;
+            height: 5px;
+            position: absolute;
+            top: 1328px;  
+            left: 779px;
+        }
+    }
+    .terceroCuadrado{
+        .Cuadrado3Abajo{
+            background-color: rgb(78, 78, 78);
+            width: 75px;
+            height: 75px;
+            position: absolute;
+            top: 123%;  
+            left: 990px; 
+        }
+        .LineaAbajo3{
+            background-color: rgb(209, 209, 209);
+            width: 110px;
+            height: 15px;
+            position: absolute;
+            top: 133%;  
+            left: 972px;
+        }
+        .LineaAbajoChica3{
+            background-color: rgb(209, 209, 209);
+            width: 110px;
+            height: 5px;
+            position: absolute;
+            top: 136%;  
+            left: 972px;
+        }
+        .LineaAbajoChica33{
+            background-color: rgb(209, 209, 209);
+            width: 110px;
+            height: 5px;
+            position: absolute;
+            top: 1312px;  
+            left: 972px;
+        }
+        .LineaAbajoDelTodo3{
+            background-color: rgb(209, 209, 209);
+            width: 75px;
+            height: 5px;
+            position: absolute;
+            top: 1328px;  
+            left: 988px;
+        }
+    }
+    .cuartoCuadrado{
+        .Cuadrado4Abajo{
+            background-color: rgb(78, 78, 78);
+            width: 75px;
+            height: 75px;
+            position: absolute;
+            top: 123%;  
+            left: 1200px; 
+        }
+        .LineaAbajo4{
+            background-color: rgb(209, 209, 209);
+            width: 110px;
+            height: 15px;
+            position: absolute;
+            top: 133%;  
+            left: 1182px;
+        }
+        .LineaAbajoChica4{
+            background-color: rgb(209, 209, 209);
+            width: 110px;
+            height: 5px;
+            position: absolute;
+            top: 136%;  
+            left: 1182px;
+        }
+        .LineaAbajoChica44{
+            background-color: rgb(209, 209, 209);
+            width: 110px;
+            height: 5px;
+            position: absolute;
+            top: 1312px;  
+            left: 1182px;
+        }
+        .LineaAbajoDelTodo4{
+            background-color: rgb(209, 209, 209);
+            width: 75px;
+            height: 5px;
+            position: absolute;
+            top: 1328px;  
+            left: 1200px;
+        }
+    }
+    
+    p{
+        width: 60px;
+        height: 60px;
+        top: 140%;
+        position: absolute;
     }
 }
