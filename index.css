@@ -106,7 +106,7 @@ header{
     width: 8%;
     height: 25px;
     position: relative;    
-    top: 390px;  
+    top: 27rem;  
     left: 120px;
 }
 .LineaDentroDelCuadrado{
@@ -114,7 +114,7 @@ header{
     width: 6%;
     height: 1%;
     position: absolute;    
-    top: 68%;  
+    top: 32.2rem  ;  
     left: 9%;
     z-index: 1;
 }
